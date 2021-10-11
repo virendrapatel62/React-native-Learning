@@ -26,7 +26,7 @@ export default function App() {
       <Button
         style={styles.button}
         onPress={handleClick}
-        title="Increase Conuter"
+        title="Increase Counter"
       ></Button>
     </View>
   );
