@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View, Button } from "react-native";
 
 export default function App() {
+  // This is what is managing the state
   const [counter, setCounter] = useState();
 
   useEffect(() => {
